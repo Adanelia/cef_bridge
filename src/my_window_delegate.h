@@ -1,4 +1,6 @@
 #pragma once
+#ifndef MY_WINDOW_DELEGATE_H
+#define MY_WINDOW_DELEGATE_H
 
 #include <Windows.h>
 
@@ -32,3 +34,5 @@ private:
 	IMPLEMENT_REFCOUNTING(MyWindowDelegate);
 
 };
+
+#endif // MY_WINDOW_DELEGATE_H

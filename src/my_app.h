@@ -1,4 +1,6 @@
 #pragma once
+#ifndef MY_APP_H
+#define MY_APP_H
 
 #include <include/cef_app.h>
 
@@ -18,3 +20,5 @@ public:
 private:
 	IMPLEMENT_REFCOUNTING(MyApp);
 };
+
+#endif // MY_APP_H

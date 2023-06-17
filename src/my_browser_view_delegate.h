@@ -1,4 +1,6 @@
 #pragma once
+#ifndef MY_BROWSER_VIEW_DELEGATE_H
+#define MY_BROWSER_VIEW_DELEGATE_H
 
 #include <include/views/cef_browser_view.h>
 #include <include/views/cef_window.h>
@@ -16,3 +18,5 @@ private:
 	IMPLEMENT_REFCOUNTING(MyBrowserViewDelegate);
 
 };
+
+#endif // MY_BROWSER_VIEW_DELEGATE_H

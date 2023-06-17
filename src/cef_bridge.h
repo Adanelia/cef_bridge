@@ -1,3 +1,4 @@
+#pragma once
 #ifndef CEF_BRIDGE_H
 #define CEF_BRIDGE_H
 
@@ -19,7 +20,7 @@ public:
 	CefBridge(
 		HINSTANCE hInstance,
 		HWND hWnd = NULL,
-		const char* default_url = "http://www.google.com",// "http://www.baidu.com"
+		const char* default_url = "http://www.google.com",
 		int x = 0, int y = 0,
 		int width = 800, int height = 600,
 		bool is_frameless = false,
